@@ -1,0 +1,40 @@
+.academic_courses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.academic_courses_box {
+    width: 33%;
+}
+
+.academic_courses_item_img {
+    background-color: #fff;
+    padding: 2rem;
+    width: 90%;
+    position: relative;
+}
+
+.academic_courses_item_img img {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.academic_courses_item_title h4,
+.academic_courses_item_subtitle p {
+    margin-top: 0.5rem;
+    color: var(--color-quinto);
+}
+
+@media (max-width:425px) {
+    .academic_courses {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .academic_courses_box {
+        width: 100%;
+
+    }
+}
